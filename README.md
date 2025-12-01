@@ -1,4 +1,8 @@
 # kachaka_ros2_pixi
+- macOS
+
+[Linux x86版はこちら]()
+
 
 
 ## カチャカAPIの準備

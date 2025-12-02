@@ -158,9 +158,27 @@ macOSでROS2開発を行うには２つの方法があります。
 1. pixi でROS2環境を構築する
 2. Docker Desktop でROS2環境を構築する
 
-### pixi でROS2環境を構築する
+```
+% git clone -b osx-arm64 https://github.com/okadahiroyuki/
 ```
 
+### pixi でROS2環境を構築する
+```
+% cd ~//pixi
+% pixi install
+% pixi shell
+% ros2 topic list
+/kachaka/back_camera/camera_info
+/kachaka/back_camera/image_raw
+/kachaka/back_camera/image_raw/camera_info
+/kachaka/back_camera/image_raw/compressed
+/kachaka/diagnostics/error_status
+...
+...
+/parameter_events
+/rosout
+/tf
+/tf_static
 ```
 
 

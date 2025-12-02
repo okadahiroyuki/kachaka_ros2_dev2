@@ -58,11 +58,16 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
-
-
-
+## カチャカAPIの有効化
+- カチャカに接続し、[設定]のタブから接続するロボットを選択、[カチャカAPI]ページを開いて「カチャカAPIを有効化する」をONにします。
+- ダイアログが表示されるので、「利用規約」を確認の上、「カチャカAPI利用規約に同意する」をチェックして「設定する」を押して下さい。
+- 
+<img width="1179" height="2556" alt="spapp_kachaka_api_screen" src="https://github.com/user-attachments/assets/475793b6-269d-49bc-a9b0-d07bbcc593f7" />
 
 ## カチャカAPIの準備
+[カチャカAPI](https://github.com/pf-robotics/kachaka-api)は、カチャカのドッキングや移動を制御したり、カチャカの状態やセンサー値を取得したりするための機能を提供します。
+
+ここでは、
 ```
 cd ~/
 git clone https://github.com/pf-robotics/kachaka-api.git

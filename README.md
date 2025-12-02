@@ -58,30 +58,98 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
-## カチャカAPIの有効化
+## カチャカAPIの有効化（カチャカ本体)
 - カチャカに接続し、[設定]のタブから接続するロボットを選択、[カチャカAPI]ページを開いて「カチャカAPIを有効化する」をONにします。
 - ダイアログが表示されるので、「利用規約」を確認の上、「カチャカAPI利用規約に同意する」をチェックして「設定する」を押して下さい。
-- 
-<img width="1179" height="2556" alt="spapp_kachaka_api_screen" src="https://github.com/user-attachments/assets/475793b6-269d-49bc-a9b0-d07bbcc593f7" />
+- [設定] > [アプリ情報] からカチャカのIPアドレスをメモしておいてください。
+- kachaka-<シリアル番号>.localというホスト名でもアクセス可能です。
 
-## カチャカAPIの準備
+詳細は[カチャカAPI](https://github.com/pf-robotics/kachaka-api)のページを参照してください。
+
+
+## カチャカAPIのインストール
+## ダウンロード
 [カチャカAPI](https://github.com/pf-robotics/kachaka-api)は、カチャカのドッキングや移動を制御したり、カチャカの状態やセンサー値を取得したりするための機能を提供します。
 
-ここでは、
+ここでは、[ROS 2でカチャカAPIを利用する](https://github.com/pf-robotics/kachaka-api/blob/main/docs/ROS2.md) に従って進めます。
+
+公式サイトからカチャカAPI一式をダウンロードします。
 ```
-cd ~/
-git clone https://github.com/pf-robotics/kachaka-api.git
-```
-公式サイトが提供するros2_bridgeはx86_64アーキテクチャのCPU上で実行させる仕様になっているので，
-下記のようにarm64アーキテクチャのCPU上で実行させるDockerイメージをビルドする．
-```
-docker buildx build -t kachaka-api --target kachaka-grpc-ros2-bridge -f Dockerfile.ros2 . --build-arg BASE_ARCH=arm64 --load
+% cd ~/
+% git clone https://github.com/pf-robotics/kachaka-api.git
 ```
 
-次に，`tools/ros2_bridge/docker-compose.yaml`に対して以下の変更を行う．
+## カチャカROS2ブリッジのビルド
+公式サイトが提供するros2_bridgeはx86_64アーキテクチャのCPU上で実行させる仕様になっているので，
+下記のようにmacOSのarm64アーキテクチャのCPU上で実行させるDockerイメージをビルドする．
 ```
+% cd ~/kachaka-api
+% docker buildx build -t kachaka-api --target kachaka-grpc-ros2-bridge -f Dockerfile.ros2 . --build-arg BASE_ARCH=arm64 --load
+```
+## カチャカROS2ブリッジの実行
+`tools/ros2_bridge/docker-compose.yaml`に対して以下の変更を行ってください。
+```
+% cd ~/kachaka-api/tools/ros2_bridge
+% nano docker-compose.yaml
+
 変更前：image: "asia-northeast1-docker.pkg.dev/kachaka-api/docker/kachaka-grpc-ros2-bridge:${TAG}"
 変更後：image: kachaka-api:latest
 ```
 
-##
+変更したdocker-compose.yamlを保存したら、下記のようにカチャカROS2ブリッジを実行してください。
+
+s
+```
+% cd ~/kachaka-api/tools/ros2_bridge
+% ./start_bridge.sh  <カチャカのIPアドレス>
+WARN[0000] /Users/roboworks/kachaka-api/tools/ros2_bridge/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[+] Running 1/1
+ ✔ Container ros2_bridge-ros2_bridge-1  Recreated                          0.0s 
+Attaching to ros2_bridge-1
+ros2_bridge-1  | [INFO] [launch]: All log files can be found below /tmp/2025-12-02-11-37-37-758448-docker-desktop-1419
+...
+...
+ros2_bridge-1  | [component_container_mt-1] [INFO] [1764675827.591438341] [kachaka.dynamic_tf]: get stub
+```
+エラーが出力されなければ、カチャカROS2ブリッジは正常に起動しています。
+
+##　動作の確認
+先ほど起動した、カチャカROS2ブリッジのコンテナを利用してカチャカからのトピックを確認できます。
+
+トピック一覧の取得
+```
+% docker exec -it ros2_bridge-ros2_bridge-1 /opt/kachaka/env.sh ros2 topic list
+/kachaka/back_camera/camera_info
+/kachaka/back_camera/image_raw
+/kachaka/back_camera/image_raw/camera_info
+/kachaka/back_camera/image_raw/compressed
+...
+...
+/parameter_events
+/rosout
+/tf
+/tf_static
+```
+
+目的地一覧の取得
+```
+% docker exec -it ros2_bridge-ros2_bridge-1 /opt/kachaka/env.sh ros2 topic echo /kachaka/layout/locations/list
+locations:
+- id: L02
+  name: 机
+  type: 0
+  pose:
+    x: -2.254146
+    y: -1.649221
+    theta: -2.077323
+- id: L03
+  name: 冷蔵庫
+  type: 0
+  pose:
+    x: -2.834408
+    y: -3.685969
+    theta: 0.011462
+```
+カチャカに登録してある目的地の情報が得られれば成功です。
+
+

@@ -98,7 +98,6 @@ For more examples and ideas, visit:
 
 変更したdocker-compose.yamlを保存したら、下記のようにカチャカROS2ブリッジを実行してください。
 
-s
 ```
 % cd ~/kachaka-api/tools/ros2_bridge
 % ./start_bridge.sh  <カチャカのIPアドレス>

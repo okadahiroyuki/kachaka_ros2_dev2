@@ -159,7 +159,7 @@ macOSでROS2開発を行うには２つの方法があります。
 2. Docker Desktop でROS2環境を構築する
 
 ```
-% git clone -b osx-arm64 https://github.com/okadahiroyuki/
+% git clone -b osx-arm64 https://github.com/okadahiroyuki/kachaka_ros2_dev.git
 ```
 
 ### pixi でROS2環境を構築する

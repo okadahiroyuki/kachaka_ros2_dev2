@@ -156,5 +156,18 @@ locations:
 macOSでROS2開発を行うには２つの方法があります。
 
 1. pixi でROS2環境を構築する
-3. Docker Desktop でROS2環境を構築する
+2. Docker Desktop でROS2環境を構築する
+
+### pixi でROS2環境を構築する
+```
+
+```
+
+
+### Docker Desktop でROS2環境を構築する
+```
+
+```
+
+
 

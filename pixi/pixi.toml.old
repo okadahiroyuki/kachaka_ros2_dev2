@@ -1,0 +1,19 @@
+[workspace]
+name = "kachka_ros2"
+channels = ["robostack-staging", "conda-forge"]
+platforms = ["osx-arm64"]
+
+
+[dependencies]
+python = "3.10.*"
+ros-humble-desktop-full = ">=0.10.0,<0.11"
+colcon-common-extensions = ">=0.3.0,<0.4"
+numpy = "*"
+portaudio = "*"
+pip = "*"
+
+[pypi-dependencies]
+sounddevice = "*"
+pyyaml = "*"
+
+[tasks]

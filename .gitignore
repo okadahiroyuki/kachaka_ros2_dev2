@@ -1,3 +1,7 @@
+src/
+.pixi
+pixi.lock
+
 devel/
 logs/
 build/

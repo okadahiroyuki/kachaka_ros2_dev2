@@ -2,6 +2,6 @@
 pixi.toml.old
 .pixi/*
 !.pixi/config.toml
-build/
-install/
-log/
+./build/
+./install/
+./log/

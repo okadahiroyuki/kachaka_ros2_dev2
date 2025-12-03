@@ -1,8 +1,0 @@
-source;share/kachaka_vision/hook/cmake_prefix_path.ps1
-source;share/kachaka_vision/hook/cmake_prefix_path.dsv
-source;share/kachaka_vision/hook/cmake_prefix_path.sh
-source;share/kachaka_vision/local_setup.bash
-source;share/kachaka_vision/local_setup.dsv
-source;share/kachaka_vision/local_setup.ps1
-source;share/kachaka_vision/local_setup.sh
-source;share/kachaka_vision/local_setup.zsh

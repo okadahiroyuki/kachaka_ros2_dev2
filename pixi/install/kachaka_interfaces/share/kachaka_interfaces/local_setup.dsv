@@ -1,3 +1,0 @@
-source;share/kachaka_interfaces/environment/ament_prefix_path.sh
-source;share/kachaka_interfaces/environment/path.sh
-source;share/kachaka_interfaces/environment/pythonpath.sh

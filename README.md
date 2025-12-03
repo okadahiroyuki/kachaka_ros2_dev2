@@ -181,6 +181,37 @@ macOSでROS2開発を行うには２つの方法があります。
 /tf_static
 ```
 
+colcon build
+```
+colcon build \
+  --cmake-args \
+    -DPython_EXECUTABLE="$(which python3)" \
+    -DPython_NumPy_INCLUDE_DIRS="$(python3 -c 'import numpy; print(numpy.get_include())')"
+```
+```
+% ros2 pkg list | grep kachaka
+kachaka_description
+kachaka_interfaces
+(kachaka-ros2) roboworks@violet pixi % ros2 interface list | grep kachaka
+    kachaka_interfaces/msg/KachakaCommand
+    kachaka_interfaces/msg/Location
+    kachaka_interfaces/msg/LocationList
+    kachaka_interfaces/msg/ObjectDetection
+    kachaka_interfaces/msg/ObjectDetectionListStamped
+    kachaka_interfaces/msg/Shelf
+    kachaka_interfaces/msg/ShelfList
+    kachaka_interfaces/msg/ShelfSize
+    kachaka_interfaces/action/ExecKachakaCommand
+
+```
+
+```
+source kachaka_ros2_dev/pixi/install/setup.zsh
+```
+
+
+
+
 
 ### Docker Desktop でROS2環境を構築する
 ```

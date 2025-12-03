@@ -1,4 +1,5 @@
 # pixi environments
+pixi.toml.old
 .pixi/*
 !.pixi/config.toml
 build/

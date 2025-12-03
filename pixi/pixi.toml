@@ -1,3 +1,4 @@
+[project]
 authors = ["Hiroyuki Okada <okdhryk@gmail.com>"]
 name = "kachaka-ros2"
 version = "0.1.0"

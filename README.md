@@ -164,7 +164,7 @@ macOSでROS2開発を行うには２つの方法があります。
 
 ### pixi でROS2環境を構築する
 ```
-% cd ~//pixi
+% cd ~/kachaka_ros2_dev/pixi
 % pixi install
 % pixi shell
 % ros2 topic list

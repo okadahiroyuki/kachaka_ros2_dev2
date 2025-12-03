@@ -1,0 +1,42 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Python_EXECUTABLE
+    Python_NumPy_INCLUDE_DIRS
+
+
+/Users/roboworks/kachaka_ros2_dev/pixi/src/kachaka_vision/src/hand_recognition_node.cpp:65:40: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+   65 |       RCLCPP_ERROR(this->get_logger(), e.what());
+      |                                        ^~~~~~~~
+/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rclcpp/rclcpp/logging.hpp:1407:7: note: expanded from macro 'RCLCPP_ERROR'
+ 1407 |       __VA_ARGS__); \
+      |       ^~~~~~~~~~~
+/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rcutils/rcutils/logging_macros.h:1004:5: note: expanded from macro 'RCUTILS_LOG_ERROR_NAMED'
+ 1004 |     __VA_ARGS__)
+      |     ^~~~~~~~~~~
+/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rcutils/rcutils/logging_macros.h:79:64: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+   79 |       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+      |                                                                ^~~~~~~~~~~
+/Users/roboworks/kachaka_ros2_dev/pixi/src/kachaka_vision/src/hand_recognition_node.cpp:65:40: note: treat the string as an argument to avoid this
+   65 |       RCLCPP_ERROR(this->get_logger(), e.what());
+      |                                        ^
+      |                                        "%s", 
+/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rclcpp/rclcpp/logging.hpp:1407:7: note: expanded from macro 'RCLCPP_ERROR'
+ 1407 |       __VA_ARGS__); \
+      |       ^
+/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rcutils/rcutils/logging_macros.h:1004:5: note: expanded from macro 'RCUTILS_LOG_ERROR_NAMED'
+ 1004 |     __VA_ARGS__)
+      |     ^
+/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rcutils/rcutils/logging_macros.h:79:64: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+   79 |       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+      |                                                                ^
+1 warning generated.

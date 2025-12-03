@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/kachaka_speak/kachaka_speak.egg-info
+writing ../../build/kachaka_speak/kachaka_speak.egg-info/PKG-INFO
+writing dependency_links to ../../build/kachaka_speak/kachaka_speak.egg-info/dependency_links.txt
+writing entry points to ../../build/kachaka_speak/kachaka_speak.egg-info/entry_points.txt
+writing requirements to ../../build/kachaka_speak/kachaka_speak.egg-info/requires.txt
+writing top-level names to ../../build/kachaka_speak/kachaka_speak.egg-info/top_level.txt
+writing manifest file '../../build/kachaka_speak/kachaka_speak.egg-info/SOURCES.txt'
+reading manifest file '../../build/kachaka_speak/kachaka_speak.egg-info/SOURCES.txt'
+writing manifest file '../../build/kachaka_speak/kachaka_speak.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build
+creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib
+creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib/kachaka_speak
+copying kachaka_speak/speak.py -> /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib/kachaka_speak
+copying kachaka_speak/__init__.py -> /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib/kachaka_speak
+running install
+running install_lib
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak
+copying /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib/kachaka_speak/speak.py -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak
+copying /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib/kachaka_speak/__init__.py -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak
+byte-compiling /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak/speak.py to speak.cpython-311.pyc
+byte-compiling /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak/__init__.py to __init__.cpython-311.pyc
+running install_data
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/share/ament_index
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/share/ament_index/resource_index
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/share/ament_index/resource_index/packages
+copying resource/kachaka_speak -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/share/ament_index/resource_index/packages
+copying package.xml -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/share/kachaka_speak
+running install_egg_info
+Copying ../../build/kachaka_speak/kachaka_speak.egg-info to /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak-0.0.0-py3.11.egg-info
+running install_scripts
+Installing speak script to /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/kachaka_speak
+writing list of installed files to '/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/install.log'

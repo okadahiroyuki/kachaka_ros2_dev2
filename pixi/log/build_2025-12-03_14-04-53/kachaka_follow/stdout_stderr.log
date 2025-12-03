@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/kachaka_follow/kachaka_follow.egg-info
+writing ../../build/kachaka_follow/kachaka_follow.egg-info/PKG-INFO
+writing dependency_links to ../../build/kachaka_follow/kachaka_follow.egg-info/dependency_links.txt
+writing entry points to ../../build/kachaka_follow/kachaka_follow.egg-info/entry_points.txt
+writing requirements to ../../build/kachaka_follow/kachaka_follow.egg-info/requires.txt
+writing top-level names to ../../build/kachaka_follow/kachaka_follow.egg-info/top_level.txt
+writing manifest file '../../build/kachaka_follow/kachaka_follow.egg-info/SOURCES.txt'
+reading manifest file '../../build/kachaka_follow/kachaka_follow.egg-info/SOURCES.txt'
+writing manifest file '../../build/kachaka_follow/kachaka_follow.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_follow/build
+creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_follow/build/lib
+creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_follow/build/lib/kachaka_follow
+copying kachaka_follow/follow.py -> /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_follow/build/lib/kachaka_follow
+copying kachaka_follow/__init__.py -> /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_follow/build/lib/kachaka_follow
+running install
+running install_lib
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/lib/python3.11/site-packages/kachaka_follow
+copying /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_follow/build/lib/kachaka_follow/follow.py -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/lib/python3.11/site-packages/kachaka_follow
+copying /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_follow/build/lib/kachaka_follow/__init__.py -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/lib/python3.11/site-packages/kachaka_follow
+byte-compiling /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/lib/python3.11/site-packages/kachaka_follow/follow.py to follow.cpython-311.pyc
+byte-compiling /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/lib/python3.11/site-packages/kachaka_follow/__init__.py to __init__.cpython-311.pyc
+running install_data
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/share/ament_index
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/share/ament_index/resource_index
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/share/ament_index/resource_index/packages
+copying resource/kachaka_follow -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/share/ament_index/resource_index/packages
+copying package.xml -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/share/kachaka_follow
+running install_egg_info
+Copying ../../build/kachaka_follow/kachaka_follow.egg-info to /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/lib/python3.11/site-packages/kachaka_follow-0.0.0-py3.11.egg-info
+running install_scripts
+Installing follow script to /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_follow/lib/kachaka_follow
+writing list of installed files to '/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_follow/install.log'

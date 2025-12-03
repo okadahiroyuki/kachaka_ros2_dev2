@@ -1,0 +1,37 @@
+[0.598s] Invoking command in '/Users/roboworks/kachaka_ros2_dev/pixi/src/kachaka_speak': PIXI_PROMPT=(pixi) PYTHONPATH=/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/prefix_override:/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=3 _=/usr/bin/env /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kachaka_speak build --build-base /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build install --record /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/install.log --single-version-externally-managed install_data
+[0.735s] running egg_info
+[0.735s] creating ../../build/kachaka_speak/kachaka_speak.egg-info
+[0.735s] writing ../../build/kachaka_speak/kachaka_speak.egg-info/PKG-INFO
+[0.735s] writing dependency_links to ../../build/kachaka_speak/kachaka_speak.egg-info/dependency_links.txt
+[0.735s] writing entry points to ../../build/kachaka_speak/kachaka_speak.egg-info/entry_points.txt
+[0.735s] writing requirements to ../../build/kachaka_speak/kachaka_speak.egg-info/requires.txt
+[0.736s] writing top-level names to ../../build/kachaka_speak/kachaka_speak.egg-info/top_level.txt
+[0.736s] writing manifest file '../../build/kachaka_speak/kachaka_speak.egg-info/SOURCES.txt'
+[0.744s] reading manifest file '../../build/kachaka_speak/kachaka_speak.egg-info/SOURCES.txt'
+[0.745s] writing manifest file '../../build/kachaka_speak/kachaka_speak.egg-info/SOURCES.txt'
+[0.745s] running build
+[0.745s] running build_py
+[0.745s] creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build
+[0.745s] creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib
+[0.745s] creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib/kachaka_speak
+[0.745s] copying kachaka_speak/speak.py -> /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib/kachaka_speak
+[0.745s] copying kachaka_speak/__init__.py -> /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib/kachaka_speak
+[0.745s] running install
+[0.746s] running install_lib
+[0.746s] creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak
+[0.746s] copying /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib/kachaka_speak/speak.py -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak
+[0.746s] copying /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build/lib/kachaka_speak/__init__.py -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak
+[0.747s] byte-compiling /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak/speak.py to speak.cpython-311.pyc
+[0.747s] byte-compiling /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak/__init__.py to __init__.cpython-311.pyc
+[0.748s] running install_data
+[0.748s] creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/share/ament_index
+[0.748s] creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/share/ament_index/resource_index
+[0.748s] creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/share/ament_index/resource_index/packages
+[0.748s] copying resource/kachaka_speak -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/share/ament_index/resource_index/packages
+[0.748s] copying package.xml -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/share/kachaka_speak
+[0.748s] running install_egg_info
+[0.749s] Copying ../../build/kachaka_speak/kachaka_speak.egg-info to /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages/kachaka_speak-0.0.0-py3.11.egg-info
+[0.751s] running install_scripts
+[0.768s] Installing speak script to /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/kachaka_speak
+[0.768s] writing list of installed files to '/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/install.log'
+[0.784s] Invoked command in '/Users/roboworks/kachaka_ros2_dev/pixi/src/kachaka_speak' returned '0': PIXI_PROMPT=(pixi) PYTHONPATH=/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/prefix_override:/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_speak/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=3 _=/usr/bin/env /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kachaka_speak build --build-base /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/build install --record /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_speak/install.log --single-version-externally-managed install_data

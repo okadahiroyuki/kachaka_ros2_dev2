@@ -1,0 +1,64 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- The C compiler identification is AppleClang 17.0.0.17000013
+-- The CXX compiler identification is AppleClang 17.0.0.17000013
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/ament_cmake/cmake)
+-- Found Python3: /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/python3 (found version "3.11.14") found components: Interpreter
+-- Found nav2_common: 1.1.18 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/nav2_common/cmake)
+-- Found navigation2: 1.1.18 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/navigation2/cmake)
+-- Setting build type to Release as none was specified.
+-- Found ament_lint_auto: 0.12.12 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.6s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Python_EXECUTABLE
+    Python_NumPy_INCLUDE_DIRS
+
+
+-- Build files have been written to: /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_nav2_bringup
+-- Install configuration: "Release"
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/launch
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/launch/navigation_launch.py
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/rviz
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/rviz/kachaka-nav.rviz
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/params
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/params/nav2_params.yaml
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/ament_index/resource_index/package_run_dependencies/kachaka_nav2_bringup
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/ament_index/resource_index/parent_prefix_path/kachaka_nav2_bringup
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/environment/ament_prefix_path.sh
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/environment/ament_prefix_path.dsv
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/environment/path.sh
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/environment/path.dsv
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/local_setup.bash
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/local_setup.sh
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/local_setup.zsh
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/local_setup.dsv
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/package.dsv
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/ament_index/resource_index/packages/kachaka_nav2_bringup
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/cmake/kachaka_nav2_bringupConfig.cmake
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/cmake/kachaka_nav2_bringupConfig-version.cmake
+-- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_nav2_bringup/share/kachaka_nav2_bringup/package.xml

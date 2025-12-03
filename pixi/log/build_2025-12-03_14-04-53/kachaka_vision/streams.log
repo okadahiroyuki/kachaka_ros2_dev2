@@ -1,0 +1,105 @@
+[0.220s] Invoking command in '/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision': CMAKE_PREFIX_PATH=/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default PIXI_PROMPT=(pixi) SHLVL=3 _=/usr/bin/env /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/cmake /Users/roboworks/kachaka_ros2_dev/pixi/src/kachaka_vision -DPython_EXECUTABLE=/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/python3 -DPython_NumPy_INCLUDE_DIRS=/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/lib/python3.11/site-packages/numpy/core/include -DCMAKE_INSTALL_PREFIX=/Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision
+[2.167s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[2.167s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.167s]   CMake.
+[2.167s] 
+[2.167s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.167s]   to tell CMake that the project requires at least <min> but has been updated
+[2.167s]   to work with policies introduced by <max> or earlier.
+[2.167s] 
+[2.167s] 
+[2.800s] -- The C compiler identification is AppleClang 17.0.0.17000013
+[2.924s] -- The CXX compiler identification is AppleClang 17.0.0.17000013
+[2.951s] -- Detecting C compiler ABI info
+[3.144s] -- Detecting C compiler ABI info - done
+[3.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.157s] -- Detecting C compile features
+[3.158s] -- Detecting C compile features - done
+[3.167s] -- Detecting CXX compiler ABI info
+[3.371s] -- Detecting CXX compiler ABI info - done
+[3.385s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.385s] -- Detecting CXX compile features
+[3.385s] -- Detecting CXX compile features - done
+[3.427s] -- Found ament_cmake: 1.3.12 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/ament_cmake/cmake)
+[3.598s] -- Found Python3: /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/python3 (found version "3.11.14") found components: Interpreter
+[4.174s] -- Found cv_bridge: 3.2.1 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/cv_bridge/cmake)
+[4.509s] -- Found rosidl_generator_c: 3.1.6 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/rosidl_generator_c/cmake)
+[4.591s] -- Found rosidl_adapter: 3.1.6 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/rosidl_adapter/cmake)
+[4.669s] -- Found rosidl_generator_cpp: 3.1.6 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/rosidl_generator_cpp/cmake)
+[4.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.046s] -- Found rclcpp: 16.0.13 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/rclcpp/cmake)
+[6.143s] -- Checking for module 'yaml-0.1'
+[6.280s] --   Found yaml-0.1, version 0.2.5
+[6.751s] -- Found rmw_implementation_cmake: 6.1.2 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/rmw_implementation_cmake/cmake)
+[6.772s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/share/rmw_cyclonedds_cpp/cmake)
+[6.886s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.134s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.134s] -- Found Threads: TRUE
+[7.239s] -- Found OpenCV: /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default (found version "4.11.0")
+[7.303s] -- Configuring done (5.1s)
+[7.381s] -- Generating done (0.1s)
+[7.381s] CMake Warning:
+[7.381s]   Manually-specified variables were not used by the project:
+[7.382s] 
+[7.382s]     Python_EXECUTABLE
+[7.382s]     Python_NumPy_INCLUDE_DIRS
+[7.382s] 
+[7.382s] 
+[7.437s] -- Build files have been written to: /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision
+[7.440s] Invoked command in '/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision' returned '0': CMAKE_PREFIX_PATH=/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default PIXI_PROMPT=(pixi) SHLVL=3 _=/usr/bin/env /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/cmake /Users/roboworks/kachaka_ros2_dev/pixi/src/kachaka_vision -DPython_EXECUTABLE=/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/python3 -DPython_NumPy_INCLUDE_DIRS=/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/lib/python3.11/site-packages/numpy/core/include -DCMAKE_INSTALL_PREFIX=/Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision
+[7.444s] Invoking command in '/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision': CMAKE_PREFIX_PATH=/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default PIXI_PROMPT=(pixi) SHLVL=3 _=/usr/bin/env /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/cmake --build /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision -- -j8 -l8
+[7.534s] [ 50%] Building CXX object CMakeFiles/hand_recognition_node.dir/src/hand_recognition_node.cpp.o
+[9.021s] /Users/roboworks/kachaka_ros2_dev/pixi/src/kachaka_vision/src/hand_recognition_node.cpp:65:40: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+[9.022s]    65 |       RCLCPP_ERROR(this->get_logger(), e.what());
+[9.023s]       |                                        ^~~~~~~~
+[9.023s] /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rclcpp/rclcpp/logging.hpp:1407:7: note: expanded from macro 'RCLCPP_ERROR'
+[9.023s]  1407 |       __VA_ARGS__); \
+[9.023s]       |       ^~~~~~~~~~~
+[9.023s] /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rcutils/rcutils/logging_macros.h:1004:5: note: expanded from macro 'RCUTILS_LOG_ERROR_NAMED'
+[9.023s]  1004 |     __VA_ARGS__)
+[9.023s]       |     ^~~~~~~~~~~
+[9.023s] /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rcutils/rcutils/logging_macros.h:79:64: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[9.023s]    79 |       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[9.023s]       |                                                                ^~~~~~~~~~~
+[9.023s] /Users/roboworks/kachaka_ros2_dev/pixi/src/kachaka_vision/src/hand_recognition_node.cpp:65:40: note: treat the string as an argument to avoid this
+[9.023s]    65 |       RCLCPP_ERROR(this->get_logger(), e.what());
+[9.023s]       |                                        ^
+[9.023s]       |                                        "%s", 
+[9.025s] /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rclcpp/rclcpp/logging.hpp:1407:7: note: expanded from macro 'RCLCPP_ERROR'
+[9.025s]  1407 |       __VA_ARGS__); \
+[9.025s]       |       ^
+[9.025s] /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rcutils/rcutils/logging_macros.h:1004:5: note: expanded from macro 'RCUTILS_LOG_ERROR_NAMED'
+[9.025s]  1004 |     __VA_ARGS__)
+[9.025s]       |     ^
+[9.025s] /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/include/rcutils/rcutils/logging_macros.h:79:64: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[9.030s]    79 |       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[9.030s]       |                                                                ^
+[10.812s] 1 warning generated.
+[10.846s] [100%] Linking CXX executable hand_recognition_node
+[10.978s] [100%] Built target hand_recognition_node
+[10.999s] Invoked command in '/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision' returned '0': CMAKE_PREFIX_PATH=/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default PIXI_PROMPT=(pixi) SHLVL=3 _=/usr/bin/env /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/cmake --build /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision -- -j8 -l8
+[11.004s] Invoking command in '/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision': CMAKE_PREFIX_PATH=/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default PIXI_PROMPT=(pixi) SHLVL=3 _=/usr/bin/env /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/cmake --install /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision
+[11.028s] -- Install configuration: ""
+[11.028s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/lib/kachaka_vision/hand_recognition_node
+[11.054s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/ament_index/resource_index/package_run_dependencies/kachaka_vision
+[11.055s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/ament_index/resource_index/parent_prefix_path/kachaka_vision
+[11.056s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/environment/ament_prefix_path.sh
+[11.056s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/environment/ament_prefix_path.dsv
+[11.056s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/environment/path.sh
+[11.056s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/environment/path.dsv
+[11.056s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/local_setup.bash
+[11.056s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/local_setup.sh
+[11.057s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/local_setup.zsh
+[11.057s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/local_setup.dsv
+[11.058s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/package.dsv
+[11.058s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/ament_index/resource_index/packages/kachaka_vision
+[11.058s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/cmake/kachaka_visionConfig.cmake
+[11.059s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/cmake/kachaka_visionConfig-version.cmake
+[11.059s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision/package.xml
+[11.059s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision//launch
+[11.059s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision//launch/hand_recognition_launch.py
+[11.059s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision//config
+[11.059s] -- Installing: /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_vision/share/kachaka_vision//config/.gitignore
+[11.062s] Invoked command in '/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision' returned '0': CMAKE_PREFIX_PATH=/Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default PIXI_PROMPT=(pixi) SHLVL=3 _=/usr/bin/env /Users/roboworks/kachaka_ros2_dev/pixi/.pixi/envs/default/bin/cmake --install /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_vision

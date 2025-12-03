@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from kachaka_interfaces/action/ExecKachakaCommand.action
+// generated code does not contain a copyright notice
+
+#include "kachaka_interfaces/msg/KachakaCommand.idl"
+
+module kachaka_interfaces {
+  module action {
+    struct ExecKachakaCommand_Goal {
+      kachaka_interfaces::msg::KachakaCommand kachaka_command;
+
+      boolean cancel_all;
+
+      string tts_on_success;
+    };
+    struct ExecKachakaCommand_Result {
+      boolean success;
+
+      int32 error_code;
+
+      string message;
+    };
+    struct ExecKachakaCommand_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

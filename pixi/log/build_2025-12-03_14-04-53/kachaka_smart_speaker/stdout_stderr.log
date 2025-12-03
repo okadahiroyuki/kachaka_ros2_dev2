@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/kachaka_smart_speaker/kachaka_smart_speaker.egg-info
+writing ../../build/kachaka_smart_speaker/kachaka_smart_speaker.egg-info/PKG-INFO
+writing dependency_links to ../../build/kachaka_smart_speaker/kachaka_smart_speaker.egg-info/dependency_links.txt
+writing entry points to ../../build/kachaka_smart_speaker/kachaka_smart_speaker.egg-info/entry_points.txt
+writing requirements to ../../build/kachaka_smart_speaker/kachaka_smart_speaker.egg-info/requires.txt
+writing top-level names to ../../build/kachaka_smart_speaker/kachaka_smart_speaker.egg-info/top_level.txt
+writing manifest file '../../build/kachaka_smart_speaker/kachaka_smart_speaker.egg-info/SOURCES.txt'
+reading manifest file '../../build/kachaka_smart_speaker/kachaka_smart_speaker.egg-info/SOURCES.txt'
+writing manifest file '../../build/kachaka_smart_speaker/kachaka_smart_speaker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_smart_speaker/build
+creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_smart_speaker/build/lib
+creating /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_smart_speaker/build/lib/kachaka_smart_speaker
+copying kachaka_smart_speaker/__init__.py -> /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_smart_speaker/build/lib/kachaka_smart_speaker
+copying kachaka_smart_speaker/smart_speaker.py -> /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_smart_speaker/build/lib/kachaka_smart_speaker
+running install
+running install_lib
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/lib/python3.11/site-packages/kachaka_smart_speaker
+copying /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_smart_speaker/build/lib/kachaka_smart_speaker/__init__.py -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/lib/python3.11/site-packages/kachaka_smart_speaker
+copying /Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_smart_speaker/build/lib/kachaka_smart_speaker/smart_speaker.py -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/lib/python3.11/site-packages/kachaka_smart_speaker
+byte-compiling /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/lib/python3.11/site-packages/kachaka_smart_speaker/__init__.py to __init__.cpython-311.pyc
+byte-compiling /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/lib/python3.11/site-packages/kachaka_smart_speaker/smart_speaker.py to smart_speaker.cpython-311.pyc
+running install_data
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/share/ament_index
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/share/ament_index/resource_index
+creating /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/share/ament_index/resource_index/packages
+copying resource/kachaka_smart_speaker -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/share/ament_index/resource_index/packages
+copying package.xml -> /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/share/kachaka_smart_speaker
+running install_egg_info
+Copying ../../build/kachaka_smart_speaker/kachaka_smart_speaker.egg-info to /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/lib/python3.11/site-packages/kachaka_smart_speaker-0.0.0-py3.11.egg-info
+running install_scripts
+Installing smart_speaker script to /Users/roboworks/kachaka_ros2_dev/pixi/install/kachaka_smart_speaker/lib/kachaka_smart_speaker
+writing list of installed files to '/Users/roboworks/kachaka_ros2_dev/pixi/build/kachaka_smart_speaker/install.log'

@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kachaka_interfaces/msg/ShelfList.msg
+// generated code does not contain a copyright notice
+
+#include "kachaka_interfaces/msg/Shelf.idl"
+
+module kachaka_interfaces {
+  module msg {
+    struct ShelfList {
+      sequence<kachaka_interfaces::msg::Shelf> shelves;
+    };
+  };
+};

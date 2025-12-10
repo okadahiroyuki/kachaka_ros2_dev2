@@ -9,4 +9,8 @@
 - 実機で
 - シミュレーションで
 
+- Ubuntu 24.04 Jazzy
+- macOS
+- Windows11
 
+  

@@ -14,19 +14,52 @@
 - Windows11
 
 
-## シミュレーション
+## シミュレーションでカチャカを動かす
 Gazebo Ignitionによるカチャカのシミュレーション環境
+
 [kachaka_ros2_dev_kit](https://github.com/CyberAgentAILab/kachaka_ros2_dev_kit)
 
-### Ubuntu 24.04 
+### ホストがUbuntu 24.04の場合 
 [kachaka_ros2_dev_kit](https://github.com/CyberAgentAILab/kachaka_ros2_dev_kit)の指示に従ってインストール，実行が可能．
-
 - Ubuntu 24.04
 - ROS 2 Jazzy
 - Gazebo Harmonic
 - カチャカソフトウェア v3.8.5
-- GPU
+- GPUが望ましい
+
+#### Dockerを使う
+
+
+#### Pixiを使う
+
+
+### ホストがmacOS osx-arm64の場合
 
 
 
-## 実機
+### ホストがWindows11の場合
+
+
+
+## 実機のカチャカを動かす
+### ホストがUbuntu 24.04の場合 
+[kachaka_ros2_dev_kit](https://github.com/CyberAgentAILab/kachaka_ros2_dev_kit)の指示に従ってインストール，実行が可能．
+- Ubuntu 24.04
+- ROS 2 Jazzy
+- Gazebo Harmonic
+- カチャカソフトウェア v3.8.5
+- GPUが望ましい
+
+#### Dockerを使う
+
+
+#### Pixiを使う
+
+
+### ホストがmacOS osx-arm64の場合
+
+
+
+### ホストがWindows11の場合
+
+

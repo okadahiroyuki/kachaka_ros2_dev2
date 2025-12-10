@@ -15,11 +15,17 @@
 
 
 ## シミュレーション
+Gazebo Ignitionによるカチャカのシミュレーション環境
 [kachaka_ros2_dev_kit](https://github.com/CyberAgentAILab/kachaka_ros2_dev_kit)
 
-Gazebo Ignitionによるカチャカのシミュレーション環境
+### Ubuntu 24.04 
+[kachaka_ros2_dev_kit](https://github.com/CyberAgentAILab/kachaka_ros2_dev_kit)の指示に従ってインストール，実行が可能．
 
-
+- Ubuntu 24.04
+- ROS 2 Jazzy
+- Gazebo Harmonic
+- カチャカソフトウェア v3.8.5
+- GPU
 
 
 

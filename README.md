@@ -14,4 +14,13 @@
 - Windows11
 
 
-  
+## シミュレーション
+[kachaka_ros2_dev_kit](https://github.com/CyberAgentAILab/kachaka_ros2_dev_kit)
+
+Gazebo Ignitionによるカチャカのシミュレーション環境
+
+
+
+
+
+## 実機

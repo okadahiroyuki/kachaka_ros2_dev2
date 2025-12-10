@@ -16,17 +16,19 @@ kachaka_ros2_dev_kitは、カチャカ実機、シミュレーション環境で
 このリポジトリでは[kachaka_ros2_dev_kit](https://github.com/CyberAgentAILab/kachaka_ros2_dev_kit)をベースにした
 カチャカの開発環境を整えます．
 
-
-
-
-- Pixi で
-- Dockerで
-- 実機で
-- シミュレーションで
-
+ホストPCが
 - Ubuntu 24.04 Jazzy
 - macOS osx-arm64 
 - Windows11
+
+仮想環境は
+- Pixi で
+- Dockerで
+
+カチャカは
+- 実機で
+- シミュレーションで
+
 
 # 参考にした
 [ROSCon JP 2025 Lightning Talk カチャカを使った研究開発](https://roscon.jp/presentations/lt05.pdf)

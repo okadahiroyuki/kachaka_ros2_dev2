@@ -1,4 +1,9 @@
-# kachaka_ros2_pixi
+# カチャカをROS2で開発する
+
+[kachaka API](https://github.com/pf-robotics/kachaka-api?tab=readme-ov-file)
+
+
+
 
 [ROSCon JP 2025 Lightning Talk カチャカを使った研究開発](https://roscon.jp/presentations/lt05.pdf)
 

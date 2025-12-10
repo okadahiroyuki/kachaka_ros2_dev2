@@ -10,7 +10,8 @@
 - シミュレーションで
 
 - Ubuntu 24.04 Jazzy
-- macOS
+- macOS osx-arm64 
 - Windows11
+
 
   
